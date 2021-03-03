@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="Estilo.css" rel="stylesheet">
+
+        <style>
+            a{
+                font-weight: bold;
+                color: white;
+                width: 200px;
+                text-decoration: none;   
+            }
+            a:hover{
+                color: #999;
+            }
+            .menuBtn{
+                font-family: 'Poppins', sans-serif;
+                transition-duration: 0.1s;
+                background-color: #444;
+                width: 200px;
+                border: 2px solid white;
+                border-radius: 1px;
+            }
+            .menuBtn:hover{
+                font-size: 18px;
+                color: #fff;
+                background-color: #666;
+                width: 240px;
+            }
+            .btns{
+                width: 300px;
+            }            
+
+        </style>
+    </head>
+    <body>
+        <div class="row" id="menu">
+            <div class="col-sm-3">                
+                Bem vindo! <br/>               
+            </div>
+            <div class="col-sm-6" align="center">
+                <h1>Clientes</h1>
+                <div class="btns">                   
+
+                    <a href="ListarClientes.jsp"><p class='menuBtn'>Listar Clientes</p></a>               
+                    <a href="CadastrarCliente.jsp"><p class='menuBtn'>Cadastrar Clientes</p></a>
+
+                </div>
+            </div>
+            <footer id='footer'>
+                <p class='pfooter'>Desenvolvedor:                 
+                    Ivan Takano 
+                </p>
+            </footer>
+    </body>
+</html>
